@@ -1,2 +1,3 @@
 joblib
 snowflake
+scikit-learn
