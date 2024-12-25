@@ -166,4 +166,4 @@ The dashboard provides a user-friendly interface with:
 
 ---
 
-This README now includes details about your app, along with an embedded view. Note that GitHub’s markdown does not support iframe rendering directly, so for embedding, this feature works only in environments that support iframe, like your website or documentation hosted elsewhere.
+
