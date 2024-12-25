@@ -18,10 +18,20 @@ Inspired by the "Moneyball" approach popularized by the Oakland Athletics, this 
 
 ---
 
+## Team Win Prediction App
+As part of this project, we developed a **Team Win Prediction App**. The app leverages machine learning models to predict the winning probabilities of teams based on various features such as team performance, weather conditions, and other match-related data.
+
+You can access the app here: [Sports Analytics App](https://iit-j-capstone-project-group15-sports-analytics.streamlit.app/).
+
+### Embedded App View:
+<iframe src="https://iit-j-capstone-project-group15-sports-analytics.streamlit.app/" width="100%" height="600px" frameborder="0"></iframe>
+
+---
+
 ## Project Architecture
 The architecture of our project is structured to handle the entire lifecycle of data analytics in sports, from data collection to actionable insights:
 
-![ETL Process & Architecture](./image.png)
+!(./image.png)
 
 1. **Data Sources:**
    - API, Databases, IoT Sensors, and Files (CSV, Parquet, ORC, Binary, JSON, XML, Excel, Avro).
@@ -99,16 +109,6 @@ The project was managed collaboratively by a team of five members under the guid
 
 ---
 
-## ETL Process & Architecture
-### Key ETL Components:
-1. **Extraction:** Data collected from various sources, including match records and player statistics.
-2. **Transformation:** Preprocessed the data, handling missing values, inconsistencies, and standardizations.
-3. **Loading:** Final datasets were loaded into a centralized repository for analysis.
-
-The architecture ensures scalability and supports real-time updates for accurate analytics.
-
----
-
 ## Challenges & Limitations
 ### Data Challenges:
 - Missing or incomplete records in older datasets (e.g., attendance, weather conditions).
@@ -166,4 +166,4 @@ The dashboard provides a user-friendly interface with:
 
 ---
 
-This README now includes the architecture image. Make sure to save the `image.png` file in the repository alongside the README or adjust the file path accordingly.
+This README now includes details about your app, along with an embedded view. Note that GitHub’s markdown does not support iframe rendering directly, so for embedding, this feature works only in environments that support iframe, like your website or documentation hosted elsewhere.
