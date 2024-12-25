@@ -31,7 +31,7 @@ You can access the app here: [Sports Analytics App](https://iit-j-capstone-proje
 ## Project Architecture
 The architecture of our project is structured to handle the entire lifecycle of data analytics in sports, from data collection to actionable insights:
 
-!(./image.png)
+!./image.png
 
 1. **Data Sources:**
    - API, Databases, IoT Sensors, and Files (CSV, Parquet, ORC, Binary, JSON, XML, Excel, Avro).
