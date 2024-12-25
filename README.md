@@ -23,8 +23,10 @@ As part of this project, we developed a **Team Win Prediction App**. The app lev
 
 You can access the app here: [Sports Analytics App](https://iit-j-capstone-project-group15-sports-analytics.streamlit.app/).
 
-### Embedded App View:
-<iframe src="https://iit-j-capstone-project-group15-sports-analytics.streamlit.app/" width="100%" height="600px" frameborder="0"></iframe>
+### Screenshot of the App
+Include a screenshot of the app interface for a visual preview:
+
+![App Screenshot](./app-screenshot.png) 
 
 ---
 
@@ -165,5 +167,4 @@ The dashboard provides a user-friendly interface with:
 4. Recruit players with strong goal efficiency and assist metrics.
 
 ---
-
 
