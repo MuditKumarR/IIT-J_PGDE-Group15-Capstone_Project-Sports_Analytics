@@ -1,9 +1,43 @@
 # Capstone Project: Sports Analytics
 
+## Team Members
+- **Anup Shaw (G23AI2015)**
+- **Mudit Kumar (G23AI2037)**
+- **Abhinandan K R (G23AI2043)**
+- **Pariniti Mishra (G23AI2036)**
+- **Keyur Karve (G23AI2072)**
+
+**Supervised By:** Shriya Raj Mahan
+
+---
+
 ## Project Overview
 This project focuses on the systematic analysis of sports data to derive insights, improve performance, and enhance decision-making in athletic environments. Leveraging advanced tools such as machine learning, predictive modeling, and big data analytics, the project demonstrates how analytics is revolutionizing sports. 
 
 Inspired by the "Moneyball" approach popularized by the Oakland Athletics, this project applies analytics to various professional and amateur sports, including basketball, soccer, tennis, cricket, and American football.
+
+---
+
+## Project Architecture
+The architecture of our project is structured to handle the entire lifecycle of data analytics in sports, from data collection to actionable insights:
+
+![ETL Process & Architecture](./image.png)
+
+1. **Data Sources:**
+   - API, Databases, IoT Sensors, and Files (CSV, Parquet, ORC, Binary, JSON, XML, Excel, Avro).
+
+2. **ETL Pipeline:**
+   - **Glue:** Used for data extraction and transformation.
+   - **AWS S3:** Acts as the central data lake.
+   - **SNS (Simple Notification Service):** Triggers the pipeline.
+
+3. **Snowflake Warehouse:**
+   - **Snow Pipe:** Automates data loading into Snowflake.
+   - **Snow Stream:** Processes real-time updates.
+   - **Tables:** Stores structured data for analytics.
+
+4. **Analytics Layer:**
+   - Outputs are used for generating insights and powering dashboards.
 
 ---
 
@@ -18,7 +52,6 @@ Inspired by the "Moneyball" approach popularized by the Oakland Athletics, this 
 8. [Sports Analytics App Overview](#sports-analytics-app-overview)
 9. [Dashboard Overview](#dashboard-overview)
 10. [Conclusion](#conclusion)
-11. [Team Members](#team-members)
 
 ---
 
@@ -133,16 +166,4 @@ The dashboard provides a user-friendly interface with:
 
 ---
 
-## Team Members
-- **Anup Shaw (G23AI2015)**
-- **Mudit Kumar (G23AI2037)**
-- **Abhinandan K R (G23AI2043)**
-- **Pariniti Mishra (G23AI2036)**
-- **Keyur Karve (G23AI2072)**
-
-**Supervised By:** Shriya Raj Mahan
-
----
-
-## Thank You!
-We hope this project serves as a valuable resource for exploring the transformative impact of sports analytics.
+This README now includes the architecture image. Make sure to save the `image.png` file in the repository alongside the README or adjust the file path accordingly.
